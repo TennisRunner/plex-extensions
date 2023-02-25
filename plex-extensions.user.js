@@ -178,7 +178,7 @@
 
 		});
 
-		var targetButton = $(menu).find(`button:contains("Analyze")`).first()
+		var targetButton = $(menu).find(`button:contains("Analyze"),button:contains("Reproduzir a seguir")`).first()
     
 		targetButton[0].classList.forEach(x => button.addClass(x));
 
